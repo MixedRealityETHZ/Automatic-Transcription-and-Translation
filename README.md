@@ -43,7 +43,7 @@ ATT (Automatic Transcription & Translation) leverages the capabilities of the Ma
 - Ruben Schenk
 - Sophya Tsubin
 
-For any queries, please contact us at: {\tt\small \{acuadron,emartine,rschenk,stsubin\}@ethz.ch}
+For any queries, please contact us at: `{acuadron,emartine,rschenk,stsubin}@ethz.ch`
 
 ## Licenses
 
