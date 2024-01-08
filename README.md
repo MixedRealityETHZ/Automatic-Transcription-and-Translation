@@ -47,10 +47,11 @@ For any queries, please contact us at: `{acuadron,emartine,rschenk,stsubin}@ethz
 
 ## Licenses
 
-This project uses several open-source components:
+The ATT project's original content, developed at ETH Zürich, is licensed under the MIT License. This includes all the source code created by our team.
 
+Additionally, this project uses several open-source components under different licenses:
 - Mixed Reality Toolkit 3 (MRTK3) - BSD 3-Clause License
 - WavUtility - MIT License
 - fast-whisper - MIT License
 
-For full license texts, see the `LICENSE` file in this repository.
+For the full text of these licenses, see the `LICENSE` file in this repository.
