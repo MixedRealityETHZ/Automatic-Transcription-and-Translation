@@ -4,16 +4,15 @@ Welcome to the repository for the ATT project, an application designed for the M
 
 ## Project Overview
 
-ATT (Automatic Transcription & Translation) leverages the capabilities of the Magic Leap 2 glasses, combined with OpenAI's Whisper model, to provide an unobtrusive mixed reality experience in multilingual communication. This repository contains all the components of our project, including the Unity project, the compiled application, the Flask API, the final project report, and a demo video. For an in-depth explanation of how the project works, check our [final report](Report.pdf).
+ATT (Automatic Transcription & Translation) leverages the capabilities of the Magic Leap 2 glasses, combined with OpenAI's Whisper model, to provide an unobtrusive mixed reality experience in multilingual communication. This repository contains all the components of our project, including the Unity project, the compiled application, the Flask API, the final project report, and a demo video. For an in-depth explanation of how the project works, check our [final report](link-missing).
 
 ## Contents
 
-- **Report.pdf**: Comprehensive project report detailing the development process and findings.
-- **Demo.mp4**: Demo video showcasing the application in action.
-- **MRATT.apk**: Compiled application for the ML2 glasses.
 - **att.unitypackage**: Package of our Unity project.
+- **MRATT.apk**: Compiled application for the ML2 glasses.
 - **api.py**: Flask API script to be run on a server.
-- **requirements.txt**: Python requirements to run the server.
+- **ATT-final-report.pdf**: Comprehensive project report detailing the development process and findings.
+- **ATT-final-demo.mp4**: Demo video showcasing the application in action.
 
 ## Prerequisites
 
@@ -66,9 +65,9 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 
 Currently, the server's IP is hardcoded in the Unity scripts. Because of this, you'll need to change the IP to your own and rebuild the app.
 
-First, create an empty Unity project and set it up to work with Magic Leap by following these [tutorials](https://developer-docs.magicleap.cloud/docs/guides/unity/getting-started/unity-getting-started/): "Create a Project," "Configure Project Settings," and "Render Pipeline Settings."
+First, create an empty Unity project and set it up to work with Magic Leap by following these [tutorials](https://developer-docs.magicleap.cloud/docs/guides/unity/getting-started/unity-getting-started/): "Create a Project", "Configure Project Settings", and "Render Pipeline Settings".
 
-Once the project is set up with ML2, proceed to install MRTK3 in the project. Follow this [tutorial](https://developer-docs.magicleap.cloud/docs/guides/third-party/mrtk3/mrtk3-new-project/) and when prompted to select MRTK3 components for installation, choose "MRTK Input," "MRTK UX Components," and "MRTK UX Components (Non-canvas)." Make sure you check the `RECORD_AUDIO` permission in the final step!
+Once the project is set up with ML2, proceed to install MRTK3 in the project. Follow this [tutorial](https://developer-docs.magicleap.cloud/docs/guides/third-party/mrtk3/mrtk3-new-project/) and when prompted to select MRTK3 components for installation, choose "MRTK Input", "MRTK UX Components", and "MRTK UX Components (Non-canvas)". Make sure you check the `RECORD_AUDIO` permission in the final step!
 
 To import the ATT project, go to `Assets -> Import Package -> Custom Package`, and then import the project package `att.unitypackage`. Once imported, a prompt will appear asking you to `Import TMP essentials`. Click on it to finish the project setup.
 
@@ -78,12 +77,12 @@ Now that the project is set up, feel free to modify it as much as you want.
 
 ## Usage
 
-To start the app, start the server as it was mentioned in the previous section and upload the apk to the glasses via the Magic Leap Hub. Once installed, just open the app. Follow on-screen instructions to start transcribing and translating speech in real-time. In case you want to stop the translation, just exit the app using the `HOME` button in the ML2 controller.
+To start the app, start the server as it was mentioned in the previous section and upload the apk to the glasses via the Magic Leap Hub. Once installed, just open the app and follow the on-screen instructions to start transcribing and translating speech in real-time. In case you want to stop the translation, just exit the app using the `HOME` button in the ML2 controller.
 
 ## Demo Video and Final Report
 
-- **Demo Video**: Watch our [demo video](Demo.mp4) to see the application in action.
-- **Final Report**: Read our [final report](Report.pdf) for detailed insights into the project.
+- **Demo Video**: Watch our [demo video](link-missing) to see the application in action.
+- **Final Report**: Read our [final report](link-missing) for detailed insights into the project.
 
 ## Contributors
 
