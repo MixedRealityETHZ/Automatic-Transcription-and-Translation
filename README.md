@@ -69,11 +69,11 @@ First, create an empty Unity project and set it up to work with Magic Leap by fo
 
 Once the project is set up with ML2, proceed to install MRTK3 in the project. Follow this [tutorial](https://developer-docs.magicleap.cloud/docs/guides/third-party/mrtk3/mrtk3-new-project/) and when prompted to select MRTK3 components for installation, choose "MRTK Input", "MRTK UX Components", and "MRTK UX Components (Non-canvas)". Make sure you check the `RECORD_AUDIO` permission in the final step!
 
-To import the ATT project, go to `Assets -> Import Package -> Custom Package`, and then import the project package `att.unitypackage`. Once imported, a prompt will appear asking you to `Import TMP essentials`. Click on it to finish the project setup.
+To import the ATT project, go to `Assets -> Import Package -> Custom Package`, and then import the project package `att.unitypackage`. Once imported, a prompt will appear asking you to `Import TMP essentials`. Click on it to finish Unity's setup.
 
 Finally, to change the IP to yours, navigate inside the Unity project to `Assets -> Scripts` and open `TranslationAPI.cs` and `AppStart.cs`. Change the IP to your desired one at `line 8`.
 
-Now that the project is set up, feel free to modify it as much as you want.
+Now that the project is set up, feel free to modify it as much as you want and have fun :D
 
 ## Usage
 
