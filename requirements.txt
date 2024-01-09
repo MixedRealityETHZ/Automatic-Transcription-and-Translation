@@ -1,0 +1,8 @@
+flask
+torch
+torchvision 
+torchaudio
+ffmpeg
+faster-whisper
+--extra-index-url https://download.pytorch.org/whl/cu118
+requests
