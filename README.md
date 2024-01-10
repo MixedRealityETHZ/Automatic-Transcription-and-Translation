@@ -2,6 +2,10 @@
 
 Welcome to the repository for the ATT project, an application designed for the Magic Leap 2 (ML2) glasses, facilitating real-time multilingual communication through transcription and translation. This project was developed by Alejandro Cuadron Lafuente, Elisa Martinez Abad, Ruben Schenk, and Sophya Tsubin at ETH Zürich in cooperation with Lukas Bernreiter from Magic Leap Switzerland.
 
+## Demo Video
+
+[![ATT Demo Video](https://img.youtube.com/vi/7M1DDJBEqbE/0.jpg)](https://www.youtube.com/watch?v=7M1DDJBEqbE)
+
 ## Project Overview
 
 ATT (Automatic Transcription & Translation) leverages the capabilities of the Magic Leap 2 glasses, combined with OpenAI's Whisper model, to provide an unobtrusive mixed reality experience in multilingual communication. This repository contains all the components of our project, including the Unity project, the compiled application, the Flask API, the final project report, and a demo video. For an in-depth explanation of how the project works, check our [final report](link-missing).
