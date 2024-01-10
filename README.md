@@ -8,7 +8,7 @@ Welcome to the repository for the ATT project, an application designed for the M
 
 ## Project Overview
 
-ATT (Automatic Transcription & Translation) leverages the capabilities of the Magic Leap 2 glasses, combined with OpenAI's Whisper model, to provide an unobtrusive mixed reality experience in multilingual communication. This repository contains all the components of our project, including the Unity project, the compiled application, the Flask API, the final project report, and a demo video. For an in-depth explanation of how the project works, check our [final report](./MR-ATT-final-report.pdf).
+ATT (Automatic Transcription & Translation) leverages the capabilities of the Magic Leap 2 glasses, combined with OpenAI's Whisper model, to provide an unobtrusive mixed reality experience in multilingual communication. This repository contains all the components of our project, including the Unity project, the compiled application, the Flask API, the final project report, the poster, and a demo video. For an in-depth explanation of how the project works, check our [final report](./MR-ATT-final-report.pdf).
 
 ## Contents
 
