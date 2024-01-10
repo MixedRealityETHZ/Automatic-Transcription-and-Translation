@@ -8,15 +8,15 @@ Welcome to the repository for the ATT project, an application designed for the M
 
 ## Project Overview
 
-ATT (Automatic Transcription & Translation) leverages the capabilities of the Magic Leap 2 glasses, combined with OpenAI's Whisper model, to provide an unobtrusive mixed reality experience in multilingual communication. This repository contains all the components of our project, including the Unity project, the compiled application, the Flask API, the final project report, and a demo video. For an in-depth explanation of how the project works, check our [final report](link-missing).
+ATT (Automatic Transcription & Translation) leverages the capabilities of the Magic Leap 2 glasses, combined with OpenAI's Whisper model, to provide an unobtrusive mixed reality experience in multilingual communication. This repository contains all the components of our project, including the Unity project, the compiled application, the Flask API, the final project report, and a demo video. For an in-depth explanation of how the project works, check our [final report](./MR-ATT-final-report.pdf).
 
 ## Contents
 
 - **att.unitypackage**: Package of our Unity project.
 - **MRATT.apk**: Compiled application for the ML2 glasses.
 - **api.py**: Flask API script to be run on a server.
-- **ATT-final-report.pdf**: Comprehensive project report detailing the development process and findings.
-- **ATT-final-demo.mp4**: Demo video showcasing the application in action.
+- **MR-ATT-final-report.pdf**: Comprehensive project report detailing the development process and findings.
+- **MR-ATT-poster-presentation.pdf**: Poster of the poster presentation.
 
 ## Prerequisites
 
@@ -83,10 +83,11 @@ Now that the project is set up, feel free to modify it as much as you want and h
 
 To start the app, start the server as it was mentioned in the previous section and upload the apk to the glasses via the Magic Leap Hub. Once installed, just open the app and follow the on-screen instructions to start transcribing and translating speech in real-time. In case you want to stop the translation, just exit the app using the `HOME` button in the ML2 controller.
 
-## Demo Video and Final Report
+## Demo Video, Final Report, and Poster
 
-- **Demo Video**: Watch our [demo video](link-missing) to see the application in action.
-- **Final Report**: Read our [final report](link-missing) for detailed insights into the project.
+- **Demo Video**: Take a look at our short [demo video](https://youtu.be/7M1DDJBEqbE) to get a quick overview of the project.
+- **Final Report**: Read our [final report](./MR-ATT-final-report.pdf) for detailed insights into the project.
+- **Poster**: Check out our [poster](./MR-ATT-poster-presentation.pdf) for a concise summary of the project.
 
 ## Contributors
 
